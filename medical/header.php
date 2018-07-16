@@ -30,7 +30,8 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">			
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
-			
+	</head>		
+	<body>		
 			<header id="header">
 	  		<div class="header-top">
 	  			<div class="container">
@@ -88,8 +89,7 @@
 		    	</div>
 		    </div>
 		  </header><!-- #header -->			
-		</head>
+		
 		
 		  
-		
-	</html>
+	

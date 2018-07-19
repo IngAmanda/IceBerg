@@ -20,8 +20,6 @@
 			<!--
 			CSS
 			============================================= -->
-			<link rel="stylesheet" href="style.css">
-
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
@@ -43,8 +41,7 @@
 				  			<a href="mailto:isb@2018.iceberg@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text"><span class="text">isb@2018.iceberg@gmail.com</span></span></a>			
 			  			</div>
 			  			<div class="col-lg-6 col-sm-6 col-8 header-top-right">
-							<a href="login.html" class="primary-btn text-uppercase">Se connecter</a>
-							<a href="register.html" class="primary-btn text-uppercase">Créer votre profile</a>							
+							<a href="#" class="primary-btn text-uppercase">Créer votre profile</a>
 			  			</div>
 			  		</div>			  					
 	  			</div>
@@ -72,69 +69,128 @@
 			                <li><a href="secourisme.html">Secourisme</a></li>
 			            </ul>
 					 </li>
-			          <!-- <li class="menu-has-children"><a href="login.html">login</a></li> -->
-			            		          					          		          
+			        <!--<li><a href="doctors.html">Doctors</a></li>
+			           <!--<li><a href="departments.html">Departments</a></li>-->
+			          
+			          <li class="menu-has-children"><a href="login.html">login</a>
+			            <!--<ul>
+			            	  <li><a href="elements.html">Elements</a></li>
+			            	  <li><a href="#">Item One</a></li>
+			            	  <li><a href="#">Item Two</a></li>
+					          <li class="menu-has-children"><a href="">Level 2 </a>
+					            <ul>
+					              <li><a href="#">Item One</a></li>
+					              <li><a href="#">Item Two</a></li>
+					            </ul>
+					          </li>					                		
+			            </ul>
+			          </li>	-->				          					          		          
 			          <li><a href="contact.html">Contact</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
 		    </div>
 		  </header><!-- #header -->
-	  
+
 			<!-- start banner Area -->
-		<!-- 	<section class="banner-area relative about-banner" id="home">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
-								LOGIN				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="login.html"> LOGIN</a></p>
-						</div>	
+			<section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>	
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-center">
+						<div class="banner-content col-lg-8 col-md-12">
+							<h1>
+								Votre santé, notre priorité		
+							</h1>					
+					
+						</div>										
 					</div>
-				</div>
-			</section> -->
-			<!-- End banner Area -->				  
+				</div>					
+			</section>
+			<!-- End banner Area -->
 
-			<!-- Start contact-page Area -->
-			<div class="col-lg-12" style="padding-top: 120px; margin : 20px;">
-							<form class="form-wrap" action="#">
-								<h3 class="pb-20 text-center mb-30">Se connecter</h3>		
-								<input type="text" class="form-control" name="name" placeholder="Patient Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nom du patien'" >
-								</br>
-								
-								<input type="email" class="form-control" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address email'" >
-								</br>
-								<input id="datepicker1" name="dop" class="dates form-control"  placeholder="Date de visite" type="text"> 
-								</br>
-								<input id="password" name="password" class="dates form-control"  placeholder="Mot de passe" type="text"> 
-
-								
-								<div class="form-select" id="service-select">
-									<select>
-										<option data-display=""><b><h3>TYPE DE SERVICE</h3></b></option>
-										<option value="1">Rendez-vous</option>
-										<option value="2">Consultation</option>
-										<option value="3">Information</option>
-										<!--<option value="4">Type Four</option>-->
-									</select>
-								</div>	
-								 
-								<button class="primary-btn text-uppercase">Confirmer</button>
-							</form>
-						</div>
+			<section class="top-category-widget-area pt-90 pb-90 ">
+				<div class="container">
+					<div class="row">		
+						
+															
+					</div>
+				</div>	
+			</section>
+			<!-- End top-category-widget Area -->
 			
-			<!-- End contact-page Area -->
+			<!-- Start post-content Area -->
+			<section class="post-content-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 posts-list">			
+							
+						
+							<div class="single-post row">
+								<div class="col-lg-9 col-md-9 meta-details">
+									
+								</div>
+								<div class="col-lg-9 col-md-9">
+									<div class="feature-img">
+										<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
+									</div>
+									<a class="posts-title" href="blog-single.html"><h3><b>Article 1</b></h3></a>
+									<p class="excert">
+										Le stretching est important apres quelques heures d'exercices,cela permet aux muscles de grandir.
+									</p>	
+									<a href="blog-single.html" class="primary-btn">View More</a>									
+								</div>
+							</div>
+							
+							<div class="single-post row">
+								<div class="col-lg-9 col-md-9 meta-details">
+									
+								</div>
+								<div class="col-lg-9 col-md-9">
+									<div class="feature-img">
+										<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
+									</div>
+									<a class="posts-title" href="blog-single.html"><h3><b>Article 2</b></h3></a>
+									<p class="excert">
+										Le stretching est important apres quelques heures d'exercices,cela permet aux muscles de grandir.
+									</p>	
+									<a href="blog-single.html" class="primary-btn">View More</a>
+								</div>
+							</div>
+							
+							<div class="single-post row">
+								<div class="col-lg-9 col-md-9 meta-details">
+									
+								</div>
+								<div class="col-lg-9 col-md-9">
+									<div class="feature-img">
+										<img class="img-fluid" src="img/blog/feature-img5.jpg" alt="">
+									</div>
+									<a class="posts-title" href="blog-single.html"><h3><b>Article 3</b></h3></a>
+									<p class="excert">
+										Le stretching est important apres quelques heures d'exercices,cela permet aux muscles de grandir.
+									</p>		
+									<a href="blog-single.html" class="primary-btn">View More</a>
+								</div>
+							</div>
+	
+							
+
+			
+		
+			
+						
+			
+
+		    
 
 			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
+			<footer >
 				<div class="container">
 					
 
 					<div class="row footer-bottom d-flex justify-content-between">
 						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by IceBerg
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 						<div class="col-lg-4 col-sm-12 footer-social">
 							<a href="#"><i class="fa fa-facebook"></i></a>
